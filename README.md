@@ -5,10 +5,10 @@
 [![Test Status](https://github.com/ngodingbang/rwid-nestjs/actions/workflows/main.yml/badge.svg 'Test Status')](https://github.com/ngodingbang/rwid-nestjs/actions/workflows/main.yml)
 [![Coverage Status](https://codecov.io/gh/ngodingbang/rwid-nestjs/graph/badge.svg?token=6TZK7PQBR5 'Coverage Status')](https://codecov.io/gh/ngodingbang/rwid-nestjs)
 
-## Table of Contents
+## Table of contents
 
 - [RWID NestJS](#rwid-nestjs)
-  - [Table of Contents](#table-of-contents)
+  - [Table of contents](#table-of-contents)
   - [Description](#description)
   - [Requirements](#requirements)
   - [Project setup](#project-setup)
@@ -46,7 +46,7 @@ $ pnpm run start:dev
 $ pnpm run start:prod
 ```
 
-Open your browser and navigate to http://localhost:3000
+Open your browser and navigate to http://localhost:3000.
 
 ## Run tests
 
