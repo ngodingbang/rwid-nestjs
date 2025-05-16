@@ -133,4 +133,4 @@ Generate code, corrections, and refactorings that comply with the basic principl
 
 ### Miscellaneous
 
-- Use English or Bahasa Indonesia only while communicate on chatbot.
+- Use English or Bahasa Indonesia only while communicating on chatbot.
