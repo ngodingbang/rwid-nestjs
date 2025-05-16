@@ -3,10 +3,14 @@
     "source.fixAll": "always",
     "source.organizeImports": "always"
   },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
   "[typescript]": {
-    "editor.formatOnSave": false
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "eslint.format.enable": true,
   "jest.runMode": "on-demand"
 }
