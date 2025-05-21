@@ -4,7 +4,7 @@ All notable changes to `RWID NestJS` will be documented in this file.
 
 ## [Unreleased](https://github.com/ngodingbang/rwid-nestjs/compare/0.1.0...develop)
 
-## [0.1.0](https://github.com/ngodingbang/rwid-nestjs/releases/tag/0.1.0) - 2025-05-18
+## [0.1.0](https://github.com/ngodingbang/rwid-nestjs/releases/tag/0.1.0) - 2025-05-21
 
 - Initial commit by [@ngodingbang](https://github.com/ngodingbang) in [#325108a](https://github.com/ngodingbang/rwid-nestjs/commit/325108acae09d6412b959ca4130f355ee0af5154).
 - docs: create readme, license, and changelog by [@ngodingbang](https://github.com/ngodingbang) in [#707c001](https://github.com/ngodingbang/rwid-nestjs/commit/707c001a05e9e11b472db1a4d2e8070501f85b2a).
@@ -18,3 +18,7 @@ All notable changes to `RWID NestJS` will be documented in this file.
 - chore: create windsurf rules for changelog by [@ngodingbang](https://github.com/ngodingbang) in [#97acb77](https://github.com/ngodingbang/rwid-nestjs/commit/97acb77cf8e1ac5076fb2d881baba2f4cd586de9).
 - feat: handle env config validation using zod by [@ngodingbang](https://github.com/ngodingbang) in [#2f257d1](https://github.com/ngodingbang/rwid-nestjs/commit/2f257d17cb7738cea5ab4ee55ff0ea3056e7a5b1).
 - chore: set prettier as default formatter on vscode settings by [@ngodingbang](https://github.com/ngodingbang) in [#b4daaed](https://github.com/ngodingbang/rwid-nestjs/commit/b4daaed3d2f5c869e9ab66948685e6e8418a02cb).
+- chore: add jest virtual folders for unit test and e2e test by [@ngodingbang](https://github.com/ngodingbang) in [#1b2ee2a](https://github.com/ngodingbang/rwid-nestjs/commit/1b2ee2a7643eac8e7642efacd92bbdbcfaeb854b).
+- chore: add optional() attribute on app.config by [@ngodingbang](https://github.com/ngodingbang) in [#683e9cf](https://github.com/ngodingbang/rwid-nestjs/commit/683e9cf5e9a26d257baf94f3bdaaf0ca64f22974).
+- chore: rename app e2e test to make it readable by vscode-jest by [@ngodingbang](https://github.com/ngodingbang) in [#390bd70](https://github.com/ngodingbang/rwid-nestjs/commit/390bd70ffe157d29fd0b293f06f9e6d7bf0134ce).
+- feat: add eslint rule for import and export in alphabetical order by [@ngodingbang](https://github.com/ngodingbang) in [#9280e59](https://github.com/ngodingbang/rwid-nestjs/commit/9280e5934454a44eb0091baa58c4fc997675527d).
