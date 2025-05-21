@@ -1,7 +1,7 @@
 import { Config } from 'nest-zod-config';
 import { z } from 'zod';
 
-export const appConfigSchema = z.object({
+const appConfigSchema = z.object({
   NODE_ENV: z
     .enum(['development', 'staging', 'production'])
     .default('development'),
@@ -9,3 +9,5 @@ export const appConfigSchema = z.object({
 });
 
 export class AppConfig extends Config(appConfigSchema) {}
+
+export { appConfigSchema };

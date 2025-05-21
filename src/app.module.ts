@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { ZodConfigModule, dotEnvLoader } from 'nest-zod-config';
+import { dotEnvLoader, ZodConfigModule } from 'nest-zod-config';
 
 import { AppConfig } from './app.config';
 import { AppController } from './app.controller';
