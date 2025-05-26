@@ -15,6 +15,7 @@
   - [Compile and run the project](#compile-and-run-the-project)
   - [Run tests](#run-tests)
   - [Stay in touch](#stay-in-touch)
+  - [API documentation](#api-documentation)
   - [Changelog](#changelog)
   - [License](#license)
 
@@ -30,6 +31,7 @@ Learn [NestJS](https://nestjs.com) from basic.
 ## Project setup
 
 ```bash
+$ cp .env.example .env # Copy .env.example to .env
 $ pnpm install
 ```
 
@@ -43,10 +45,11 @@ $ pnpm run start
 $ pnpm run start:dev
 
 # production mode
+$ pnpm run build # Build the project (skip this if `/dist` folder is already exists)
 $ pnpm run start:prod
 ```
 
-Open your browser and navigate to http://localhost:3000.
+Open your browser and navigate to [localhost:3000](http://localhost:3000).
 
 ## Run tests
 
@@ -65,6 +68,14 @@ $ pnpm run test:cov
 
 - Author - [NgodingBang](https://threads.net/@ngodingbang)
 - Website - [https://ngodingbang.my.id](https://ngodingbang.my.id)
+
+## API documentation
+
+You can access the API documentation here:
+
+- Development - [localhost:3000/api/docs](http://localhost:3000/api/docs).
+- Staging - TBD.
+- Production - TBD.
 
 ## Changelog
 
