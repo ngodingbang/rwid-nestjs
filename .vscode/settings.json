@@ -17,5 +17,6 @@
       "jestCommandLine": "pnpm run test:e2e",
       "path": "./test"
     }
-  ]
+  ],
+  "npm.packageManager": "pnpm"
 }
