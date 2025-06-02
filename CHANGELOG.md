@@ -2,7 +2,14 @@
 
 All notable changes to `RWID NestJS` will be documented in this file.
 
-## [Unreleased](https://github.com/ngodingbang/rwid-nestjs/compare/0.1.0...develop)
+## [Unreleased](https://github.com/ngodingbang/rwid-nestjs/compare/0.2.0...develop)
+
+## [0.2.0](https://github.com/ngodingbang/rwid-nestjs/releases/tag/0.2.0) - 2025-06-02
+
+- feat: add api docs using swagger and scalar by [@ngodingbang](https://github.com/ngodingbang) in [#936022b](https://github.com/ngodingbang/rwid-nestjs/commit/936022b584813403e56c5319247b360e4016166e).
+- chore: set pnpm as default package manager on vscode settings by [@ngodingbang](https://github.com/ngodingbang) in [#b91cce9](https://github.com/ngodingbang/rwid-nestjs/commit/b91cce97dfd3d85b515792675fdb894228fc6653).
+- chore: add editorconfig by [@ngodingbang](https://github.com/ngodingbang) in [#58563c2](https://github.com/ngodingbang/rwid-nestjs/commit/58563c2123125f9facbb0ef1888a5103813f9273).
+- feat: setup database orm using prisma by [@ngodingbang](https://github.com/ngodingbang) in [#351fb09](https://github.com/ngodingbang/rwid-nestjs/commit/351fb090a7636941a402688aefdd59f32017c770).
 
 ## [0.1.0](https://github.com/ngodingbang/rwid-nestjs/releases/tag/0.1.0) - 2025-05-21
 
