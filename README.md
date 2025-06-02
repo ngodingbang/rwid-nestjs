@@ -13,6 +13,9 @@
   - [Requirements](#requirements)
   - [Project setup](#project-setup)
   - [Compile and run the project](#compile-and-run-the-project)
+  - [Database](#database)
+    - [Initial setup](#initial-setup)
+    - [Migrations](#migrations)
   - [Run tests](#run-tests)
   - [Stay in touch](#stay-in-touch)
   - [API documentation](#api-documentation)
@@ -27,6 +30,7 @@ Learn [NestJS](https://nestjs.com) from basic.
 
 - [![Node.js](https://img.shields.io/badge/Node.js%20^22.15.0-43853D?logo=node.js&logoColor=white 'Node.js')](https://nodejs.org)
 - [![pnpm](https://img.shields.io/badge/pnpm%20^10.11.0-F69220?logo=pnpm&logoColor=white 'pnpm')](https://pnpm.io)
+- [![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2017.5-316192?logo=postgresql&logoColor=white 'PostgreSQL')](https://www.postgresql.org)
 
 ## Project setup
 
@@ -50,6 +54,45 @@ $ pnpm run start:prod
 ```
 
 Open your browser and navigate to [localhost:3000](http://localhost:3000).
+
+## Database
+
+### Initial setup
+
+```bash
+# create database and run migrations
+$ pnpm exec prisma migrate dev
+
+# run seed
+$ pnpm exec prisma db seed
+```
+
+Make sure you have the PostgreSQL environment and already setup these .env configurations below before running the commands above.
+
+```properties
+DB_URL=postgresql://root:password@localhost:5432/rwid_nestjs?schema=public
+```
+
+This project is using [Prisma](https://prisma.io) as the database tool. Please read their documentation for more information.
+
+### Migrations
+
+Run this command below to generate a new migration file.
+
+```bash
+$ pnpm run migration:dev
+```
+
+All migrations are stored in `src/prisma/migrations` directory. The migrations directory has the following structure:
+
+```bash
+src/
+└── prisma/
+    └── migrations/
+        └── 20250526155757_0_2_0
+            └── migration.sql
+        └── migration_lock.toml
+```
 
 ## Run tests
 
